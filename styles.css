@@ -1,32 +1,16 @@
-body {
-  max-width: 800px;
-  margin: 0 auto;
+body{
+    padding: 0px 20px;
+    line-height: 1.5rem;
 }
-
-.sender-column {
-  text-align: right;
+.from-address{
+    text-align: right;
 }
-
-h1 {
-  font-size: 1.5em;
+.from-address .from-name, .support-headdings, .to-name{
+    font-weight: bold;
 }
-
-h2 {
-  font-size: 1.3em;
+.to-address{
+    text-align: left;
 }
-
-p,
-ul,
-ol,
-dl,
-address {
-  font-size: 1.1em;
-}
-
-p,
-li,
-dd,
-dt,
-address {
-  line-height: 1.5;
+.support-content{
+    padding-left: 40px;
 }
